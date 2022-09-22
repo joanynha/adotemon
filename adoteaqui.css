@@ -6,13 +6,14 @@ body {
     background-color: #0098ff;
 }
 
+
 /* menu de navegação */
 li, a {
-    font-family: 'Calibri';
-    font-size: 25px;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: #5012AD;
+    color: #0098ff;
     list-style: none;
 }
 
@@ -32,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 45px;
     background-color: yellow;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
@@ -67,3 +68,87 @@ header {
         display: none;
     }
 }
+
+
+/* galeria */
+.galeria {
+    margin-top: 2cm;
+    margin-left: 135px;
+}
+
+.fileira2 {
+    margin-top: 3cm;
+}
+
+.emolga {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(1deg);
+}
+
+.sylveon {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(-1deg);
+}
+
+.braixen {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(-1deg);
+}
+
+.cyndaquil {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(-1deg);
+}
+
+.litwick {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(1deg);
+}
+
+.pichu {
+    padding: 12px;
+    margin: 20px;
+    background-color: yellow;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    transform: rotate(-2deg);
+}
+
+/* sobre nós */
+
+.sobrenos {
+    background-color: yellow;
+    margin: 4cm auto;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 10px;
+    color: #0098ff;
+}
+
+.descrição {
+    margin: auto;
+    padding: 50px;
+    border: 20px yellow solid;
+    width: 50%;
+    color: yellow;
+    border-radius: 5px;
+}
+
